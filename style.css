@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #000;
+    color: #f0f0f0;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #111;
+    padding: 20px 0;
+}
+
+.image-pp{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+}
+
+.navbar .logo {
+    font-size: 1.8em;
+    font-weight: bold;
+    color: #f0f0f0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #ff66b2;
+    text-decoration: none;
+    font-size: 1.2em;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #ff3399;
+}
+
+#hero {
+    height: 60vh;
+    background-color: #222;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#hero h1 {
+    font-size: 3em;
+    color: #ff66b2;
+    margin-bottom: 10px;
+}
+
+#hero p {
+    font-size: 1.5em;
+    color: #f0f0f0;
+}
+
+.section {
+    padding: 60px 30px;
+    background-color: #111;
+}
+
+.section h2 {
+    font-size: 2.5em;
+    color: #ff66b2;
+    margin-bottom: 20px;
+}
+
+.section-content p {
+    font-size: 1.2em;
+    color: #f0f0f0;
+    max-width: 900px;
+    margin: 0 auto;
+    line-height: 1.8;
+}
+
+.gallery {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.portfolio-item {
+    width: 30%;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.portfolio-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.portfolio-item p {
+    margin-top: 10px;
+    color: #ff66b2;
+}
+
+.social-links {
+    list-style: none;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.social-links li {
+    margin: 0 15px;
+}
+
+.social-links a {
+    color: #ff66b2;
+    text-decoration: none;
+    font-size: 1.2em;
+    transition: color 0.3s;
+}
+
+.social-links a:hover {
+    color: #ff3399;
+}
+
+footer {
+    background-color: #111;
+    color: #f0f0f0;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+
+.foto {
+        margin-top:1px;
+        border-radius: 190%;
+        overflow: hidden;
+        width: 200px;
+        height: 200px;
+        border:2px solid rgb(194, 21, 142);
+        }
+.foto img {
+        display: block;
+        min-width: 10%;
+        min-height: 100%;
+    }
+
+
